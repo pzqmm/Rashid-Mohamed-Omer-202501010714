@@ -1,0 +1,11 @@
+WEEK 7 - TUTORIAL 7 DOCUMENTATION
+
+Bugs Identified & Fixed:
+1. In the original template 'test_food_order.py', the function call was written as 'food_order(10, 2)' instead of the correct function name 'calculate_total(10, 2)'. Fixed by importing and using 'calculate_total'.
+2. In 'main.py', the import statement was incomplete ('from _______ import _______'). Fixed to 'from food_order import calculate_total'.
+3. In 'main.py', the total calculation assignment was missing. Fixed by assigning 'total = calculate_total(price, quantity)'.
+4. Added customer input validation in 'food_order.py' to handle edge cases (negative or zero values) and return appropriate messages ('invalid price' and 'invalid quantity').
+
+Terminal:
+- Used the terminal to run and test the Python food order program.
+- Commands included running the script and checking for errors.
