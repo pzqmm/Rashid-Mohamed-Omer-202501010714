@@ -1,0 +1,10 @@
+def show_ticket(ticket_data, technician):
+    print("\n========== HELPDESK TICKET ==========")
+    print(f"Student Name : {ticket_data['name']}")
+    print(f"Student ID   : {ticket_data['student_id']}")
+    print(f"Issue        : {ticket_data['issue']}")
+    print(f"Location     : {ticket_data['location']}")
+    print(f"Priority     : {ticket_data['priority']}")
+    print(f"Technician   : {technician}")
+    print("Status       : Pending")
+    print("====================================")
